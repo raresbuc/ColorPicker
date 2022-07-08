@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gulzar&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <main>
+            <h1>Color Picker</h1>
+            <section class="container-top">
+                <div class="top">
+                    <input type="color" class="input-style" id="input">
+                    <select id="dropdown">
+                        <option>Monochrome</option>
+                        <option>Monochrome-dark</option>
+                        <option>Monochrome-light</option>
+                        <option>Analogic</option>
+                        <option>Complement</option>
+                        <option>Analogic-complement</option>
+                        <option>Triad</option>
+                        <option>quad</option>
+                    </select>
+                    <button id="btn">Get color scheme</button>
+                </div>
+            </section>
+                
+            <section class="container-colors">
+                <div id="colors">
+                    <p class="pretext">Choose a color palette!</p>
+                </div>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+    
+</html>
